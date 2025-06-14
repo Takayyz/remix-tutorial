@@ -1,0 +1,33 @@
+{
+  "name": "remix-tutorial",
+  "version": "1.0.0",
+  "description": "https://remix-docs-ja.techtalk.jp/start/quickstart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Takayyz/remix-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Takayyz/remix-tutorial/issues"
+  },
+  "homepage": "https://github.com/Takayyz/remix-tutorial#readme",
+  "dependencies": {
+    "@remix-run/node": "^2.16.8",
+    "@remix-run/react": "^2.16.8",
+    "@remix-run/serve": "^2.16.8",
+    "isbot": "^4.4.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.16.8",
+    "vite": "^6.3.5"
+  }
+}
