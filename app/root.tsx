@@ -1,4 +1,4 @@
-import { LinksFunction } from "@remix-run/node";
+import { json, LinksFunction } from "@remix-run/node";
 import {
   Form,
   Link,
@@ -18,7 +18,7 @@ export const links: LinksFunction = () => [
 
 export const loader = async () => {
   const contacts = await getContacts();
-  return Response.json({ contacts });
+  return json({contacts});
 };
 
 export default function App() {
