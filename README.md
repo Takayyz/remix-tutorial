@@ -1,6 +1,7 @@
 # Welcome to Remix!
 
 - [Remix Docs](https://remix.run/docs)
+- [チュートリアル](https://remix-docs-ja.techtalk.jp/start/tutorial)
 
 ## Development
 
