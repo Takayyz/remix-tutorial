@@ -62,7 +62,13 @@ export default function App() {
           <div>
             <Form
               id="search-form"
-              onChange={(event) => submit(event.currentTarget)}
+              onChange={(event) => {
+                // INFO: ヒストリスタックの最適化(入力の度にスタックされるのを防ぐ)
+                const isFirstSearch = q === null;
+                submit(event.currentTarget, {
+                  replace: !isFirstSearch
+                })
+              }}
               role="search"
             >
               <input
